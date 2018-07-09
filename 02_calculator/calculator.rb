@@ -10,15 +10,15 @@ end
 def subtract(number_1,number_2)
 		p number_1-number_2
 end
-=begin
-	
-rescue Exception => e
-	
-end
+
 #array
 nombres[0,1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
 
-def sum
+def sum (nombres)
+	if nombres==[]
+		p "sum=0"
+	else nombres.each.sum
+	 	p somme
 
 end
 =end
@@ -38,3 +38,4 @@ add(2,2)
 subtract(10,4)
 multip(3,4)
 puissance(6,5)
+sum (1,6,7)
